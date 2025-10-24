@@ -5,7 +5,7 @@ go 1.23.1
 require (
 	github.com/golang/geo v0.0.0-20250613135800-9e8e59d779cc // indirect
 	github.com/golang/snappy v1.0.0 // indirect
-	github.com/markus-wa/demoinfocs-golang/v4 v4.3.3 // indirect
+	github.com/markus-wa/demoinfocs-golang/v4 v4.4.0 // indirect
 	github.com/markus-wa/go-unassert v0.1.3 // indirect
 	github.com/markus-wa/gobitread v0.2.4 // indirect
 	github.com/markus-wa/godispatch v1.4.1 // indirect
