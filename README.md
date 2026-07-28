@@ -1,5 +1,7 @@
 This script generates commands to listen only to your team or the opponents' team in the cs2 demo.
 
+[![Total downloads](https://img.shields.io/github/downloads/boris-on/faceit-voicechat/total?label=downloads&logo=github)](https://github.com/boris-on/faceit-voicechat/releases)
+
 ## How to use
 1. Right-click `.dem` file
 2. Choose **"Open with..." → select `faceit_voicechat.exe`**
