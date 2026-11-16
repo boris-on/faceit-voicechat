@@ -2,12 +2,13 @@ package main
 
 import (
 	"bufio"
+	"context"
 	"fmt"
 	"os"
 
-	"github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs"
-	"github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/common"
-	"github.com/markus-wa/demoinfocs-golang/v5/pkg/demoinfocs/events"
+	"github.com/markus-wa/demoinfocs-golang/v6/pkg/demoinfocs"
+	"github.com/markus-wa/demoinfocs-golang/v6/pkg/demoinfocs/common"
+	"github.com/markus-wa/demoinfocs-golang/v6/pkg/demoinfocs/events"
 )
 
 func main() {
@@ -37,7 +38,7 @@ func main() {
 		}
 	})
 
-	err = p.ParseToEnd()
+	err = p.ParseToEnd(context.Background())
 	if err != nil {
 		panic(err)
 	}
